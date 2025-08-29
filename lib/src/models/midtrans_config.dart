@@ -1,4 +1,4 @@
-import 'package:midtrans_sdk/src/models/color_theme.dart';
+import 'package:midtrans_sdk_android/src/models/color_theme.dart';
 
 class MidtransConfig {
   final String clientKey;

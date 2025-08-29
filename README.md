@@ -1,8 +1,8 @@
-# midtrans_sdk
+# midtrans_sdk_android
 
 A Flutter plugin for [Midtrans Mobile SDK](https://mobile-docs.midtrans.com/). Visit https://midtrans.com.
 
-[![pub package](https://img.shields.io/pub/v/midtrans_sdk.svg)](https://pub.dartlang.org/packages/midtrans_sdk)
+[![pub package](https://img.shields.io/pub/v/midtrans_sdk_android.svg)](https://pub.dartlang.org/packages/midtrans_sdk_android)
 
 ---
 
@@ -14,11 +14,11 @@ A Flutter plugin for [Midtrans Mobile SDK](https://mobile-docs.midtrans.com/). V
 
 ## Usage
 
-To use this plugin, add `midtrans_sdk` as a dependency in your [pubspec.yaml](https://flutter.dev/docs/development/packages-and-plugins/using-packages) file.
+To use this plugin, add `midtrans_sdk_android` as a dependency in your [pubspec.yaml](https://flutter.dev/docs/development/packages-and-plugins/using-packages) file.
 
 ## Getting started
 
-See the [example](example) directory for a sample about start payment by using snap token which using `midtrans_sdk`.
+See the [example](example) directory for a sample about start payment by using snap token which using `midtrans_sdk_android`.
 
 ### Android
 
@@ -49,7 +49,7 @@ To start using Midtrans you first need to create an instance of `MidtransSDK` be
 
 *Example:*
 ```dart
-import 'package:midtrans_sdk/midtrans_sdk.dart';
+import 'package:midtrans_sdk_android/midtrans_sdk.dart';
 
 var config = MidtransConfig(
   clientKey: "",
@@ -82,7 +82,7 @@ MidtransSDK.init(
   
 ### Start payment method screen
   
-Default mode for `midtrans_sdk` is showing payment method screen. This screen will show all of your available payment methods.
+Default mode for `midtrans_sdk_android` is showing payment method screen. This screen will show all of your available payment methods.
 You can enable/disable payment methods via Snap Preferences in [MAP](https://account.midtrans.com).
 
 ### Start payment by using snap token

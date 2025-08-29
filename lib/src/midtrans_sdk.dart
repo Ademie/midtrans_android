@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:midtrans_sdk/midtrans_sdk.dart';
+import 'package:midtrans_sdk_android/midtrans_sdk_android.dart';
 
 class MidtransSDK {
-  static const MethodChannel _channel = const MethodChannel('midtrans_sdk');
+  static const MethodChannel _channel = const MethodChannel('midtrans_sdk_android');
   static MidtransSDK _instance = MidtransSDK._();
 
   TransactionFinishedCallback? _transactionFinishedCallback;

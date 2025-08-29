@@ -1,4 +1,4 @@
-group 'dev.tomykho.midtrans_sdk'
+group 'dev.tomykho.midtrans_sdk_android'
 version '1.0'
 
 buildscript {
@@ -27,7 +27,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'dev.tomykho.midtrans_sdk'
+    namespace 'dev.tomykho.midtrans_sdk_android'
 
     compileSdk = 35
 
