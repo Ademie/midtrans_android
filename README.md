@@ -9,7 +9,6 @@ A Flutter plugin for [Midtrans Mobile SDK](https://mobile-docs.midtrans.com/). V
 ## Supported Platforms
 
 - [x] Android
-- [x] iOS
 - [ ] Web
 
 ## Usage

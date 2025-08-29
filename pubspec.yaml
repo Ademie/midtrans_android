@@ -1,5 +1,5 @@
 name: midtrans_sdk_android
-description: A Flutter plugin for Midtrans Mobile SDK. Supports iOS and Android.
+description: A Flutter plugin for Midtrans Mobile SDK. Supports Android only.
 version: 1.0.1
 repository: https://github.com/tomykho/midtrans_sdk_android
 
@@ -29,8 +29,6 @@ flutter:
     platforms:
       android:
         package: dev.tomykho.midtrans_sdk_android
-        pluginClass: MidtransSdkPlugin
-      ios:
         pluginClass: MidtransSdkPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
